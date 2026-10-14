@@ -58,8 +58,3 @@ python run_tcreject.py ajile --subject sub-01 --session ses-4 --data_root <data_
 The DBS recordings are protected and are not distributed. `run_dbs.py` is provided only for
 authorized local use with the expected input layout documented in
 `tcreject/datasets/dbs_adapter.py`.
-
-## Anonymity and data policy
-
-Do not commit downloaded datasets, model checkpoints, result caches, credentials, or protected
-clinical recordings. The included `.gitignore` excludes common forms of these files.
